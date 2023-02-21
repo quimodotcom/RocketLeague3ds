@@ -1,0 +1,74 @@
+# NW4C_Export settings
+SettingsVersion="1.6.3"
+GeneratorName="Maya 2017 NW4C_Export"
+GeneratorVersion="1.8.6"
+Date="18-02-2023T20:45:26"
+
+# Output Options
+ProcessMode="Single"
+ExportTarget="All"
+OutputFileName="COMMON"
+OutputMode="CreativeStudio"
+OutputFolder="E:/rocketleague3ds/Assets/3dsBanner/Model/COMMON"
+MergeCmdl="false"
+MergeCmdlPath="E:/rocketleague3ds/Assets/3dsBanner/Model/COMMON/COMMON.cmdl"
+CopyRelatedFiles="false"
+
+# General Options
+Magnify="1.0"
+FrameRange="All"
+StartFrame="1"
+EndFrame="100"
+RemoveNamespace="false"
+
+# Output File Selection
+OutputCmdl="true"
+OutputCtex="true"
+OutputCmdla="false"
+OutputCskla="false"
+OutputCmata="false"
+OutputCmcla="false"
+OutputCmtpa="false"
+OutputCmtsa="false"
+OutputCcam="false"
+OutputClgt="false"
+OutputCenv="false"
+
+# Optimization Options
+CompressNode="UniteAll"
+CompressMaterial="true"
+OptimizePrimitive="true"
+ConvertToModel="false"
+
+# Quantization Options
+QuantizePos="Float"
+QuantizeNrm="Float"
+QuantizeTex="Float"
+
+# Model Options
+AdjustSkinning="RigidSkinning"
+MeshVisibilityMode="BindByName"
+MaxReservedUniformRegisters="0"
+
+# Animation Options
+BakeAllAnim="true"
+FramePrecision="1.0"
+LoopAnim="false"
+FrameFormat="false"
+ScaleQuantizeQuality="9"
+RotateQuantizeQuality="9"
+TranslateQuantizeQuality="9"
+
+# Tolerance Options
+ToleranceScale="0.1"
+ToleranceRotate="0.1"
+ToleranceTranslate="0.01"
+ToleranceTexScale="0.1"
+ToleranceTexRotate="0.1"
+ToleranceTexTranslate="0.01"
+ToleranceColor="0.001"
+
+# Script Options
+PreExportScript=""
+PostExportScript=""
+

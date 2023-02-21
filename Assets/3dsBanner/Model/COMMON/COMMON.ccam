@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<NintendoWareIntermediateFile>
+	<GraphicsContentCtr Version="1.3.0" Namespace="">
+		<EditData>
+			<MetaData>
+				<Key>MetaData</Key>
+				<Create Author="Evan Donald" Date="2023-02-18T23:00:00" Source="banner.mb" FullPathOfSource="E:/rocketleague3ds/banner.mb">
+					<ToolDescriptions Name="NW4C_Export for Maya 2017" Version="1.8.6" />
+				</Create>
+			</MetaData>
+		</EditData>
+		<Animations>
+			<CameraAnimationData Name="camera3" FrameSize="199" LoopMode="OneTime" IsAdditiveAnimation="false" ViewMode="Rotate" ProjectionMode="Perspective">
+				<MemberAnimationDataSet>
+				</MemberAnimationDataSet>
+			</CameraAnimationData>
+		</Animations>
+		<Cameras>
+			<Camera Name="camera3" IsBranchVisible="true">
+				<AnimationGroupDescriptions>
+					<GraphicsAnimationGroupDescription Name="CameraAnimation" EvaluationTiming="BeforeWorldUpdate">
+						<MemberInformationSet>
+							<AnimationMemberDescription BlendOperationName="Transform">
+								<Path>Transform</Path>
+							</AnimationMemberDescription>
+							<AnimationMemberDescription BlendOperationName="Vector3">
+								<Path>ViewUpdater.TargetPosition</Path>
+							</AnimationMemberDescription>
+							<AnimationMemberDescription BlendOperationName="Float">
+								<Path>ViewUpdater.Twist</Path>
+							</AnimationMemberDescription>
+							<AnimationMemberDescription BlendOperationName="Vector3">
+								<Path>ViewUpdater.UpwardVector</Path>
+							</AnimationMemberDescription>
+							<AnimationMemberDescription BlendOperationName="Vector3">
+								<Path>ViewUpdater.ViewRotate</Path>
+							</AnimationMemberDescription>
+							<AnimationMemberDescription BlendOperationName="Float">
+								<Path>ProjectionUpdater.Near</Path>
+							</AnimationMemberDescription>
+							<AnimationMemberDescription BlendOperationName="Float">
+								<Path>ProjectionUpdater.Far</Path>
+							</AnimationMemberDescription>
+							<AnimationMemberDescription BlendOperationName="Float">
+								<Path>ProjectionUpdater.Fovy</Path>
+							</AnimationMemberDescription>
+							<AnimationMemberDescription BlendOperationName="Float">
+								<Path>ProjectionUpdater.AspectRatio</Path>
+							</AnimationMemberDescription>
+							<AnimationMemberDescription BlendOperationName="Float">
+								<Path>ProjectionUpdater.Height</Path>
+							</AnimationMemberDescription>
+						</MemberInformationSet>
+					</GraphicsAnimationGroupDescription>
+				</AnimationGroupDescriptions>
+				<Transform>
+					<Scale X="1" Y="1" Z="1" />
+					<Rotate X="0" Y="0" Z="0" />
+					<Translate X="12.8581" Y="7.43272" Z="2.0722" />
+				</Transform>
+				<RotateViewUpdater IsInheritingRotate="false">
+					<ViewRotate X="-0.575946" Y="1.36136" Z="0" />
+				</RotateViewUpdater>
+				<PerspectiveProjectionUpdater Near="0.1" Far="10000" Fovy="1.3495" AspectRatio="1.49995" />
+			</Camera>
+		</Cameras>
+	</GraphicsContentCtr>
+</NintendoWareIntermediateFile>

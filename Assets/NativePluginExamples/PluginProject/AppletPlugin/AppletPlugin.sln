@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AppletPlugin", "AppletPlugin.vcxproj", "{30EFE289-A18E-489D-A3C9-8F73F0280F49}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|CTR = Debug|CTR
+		Develop|CTR = Develop|CTR
+		Release|CTR = Release|CTR
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{30EFE289-A18E-489D-A3C9-8F73F0280F49}.Debug|CTR.ActiveCfg = Debug|CTR
+		{30EFE289-A18E-489D-A3C9-8F73F0280F49}.Debug|CTR.Build.0 = Debug|CTR
+		{30EFE289-A18E-489D-A3C9-8F73F0280F49}.Develop|CTR.ActiveCfg = Develop|CTR
+		{30EFE289-A18E-489D-A3C9-8F73F0280F49}.Develop|CTR.Build.0 = Develop|CTR
+		{30EFE289-A18E-489D-A3C9-8F73F0280F49}.Release|CTR.ActiveCfg = Release|CTR
+		{30EFE289-A18E-489D-A3C9-8F73F0280F49}.Release|CTR.Build.0 = Release|CTR
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
