@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{55AB6501-ADE9-57AA-D44A-D11255E10572}</ProjectGuid>
+    <ProjectGuid>{A462B892-1FCF-4D28-150A-A1093670FDF9}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -240,10 +240,10 @@
  <HintPath>C:/Program Files/UnityNew3DS_1_3_0/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
  </Reference>
  <Reference Include="TextMeshPro-5.6-Editor">
- <HintPath>E:/rocketleague3ds/Assets/TextMesh Pro/Plugins/Editor DLL/TextMeshPro-5.6-Editor.dll</HintPath>
+ <HintPath>E:/rocketleague3ds/RocketLeague3ds/Assets/TextMesh Pro/Plugins/Editor DLL/TextMeshPro-5.6-Editor.dll</HintPath>
  </Reference>
  <Reference Include="TextMeshPro-5.6-Runtime">
- <HintPath>E:/rocketleague3ds/Assets/TextMesh Pro/Plugins/Editor DLL/TextMeshPro-5.6-Runtime.dll</HintPath>
+ <HintPath>E:/rocketleague3ds/RocketLeague3ds/Assets/TextMesh Pro/Plugins/Editor DLL/TextMeshPro-5.6-Runtime.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

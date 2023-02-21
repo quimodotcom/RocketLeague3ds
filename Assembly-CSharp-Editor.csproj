@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{FE08355C-EE60-35BA-EB75-1C763CAD7595}</ProjectGuid>
+    <ProjectGuid>{3D661DEF-8658-114F-93FC-4CC5393305E9}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -212,15 +212,15 @@
  <HintPath>C:/Program Files/UnityNew3DS_1_3_0/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="TextMeshPro-5.6-Editor">
- <HintPath>E:/rocketleague3ds/Assets/TextMesh Pro/Plugins/Editor DLL/TextMeshPro-5.6-Editor.dll</HintPath>
+ <HintPath>E:/rocketleague3ds/RocketLeague3ds/Assets/TextMesh Pro/Plugins/Editor DLL/TextMeshPro-5.6-Editor.dll</HintPath>
  </Reference>
  <Reference Include="TextMeshPro-5.6-Runtime">
- <HintPath>E:/rocketleague3ds/Assets/TextMesh Pro/Plugins/Editor DLL/TextMeshPro-5.6-Runtime.dll</HintPath>
+ <HintPath>E:/rocketleague3ds/RocketLeague3ds/Assets/TextMesh Pro/Plugins/Editor DLL/TextMeshPro-5.6-Runtime.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{55AB6501-ADE9-57AA-D44A-D11255E10572}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
+      <Project>{A462B892-1FCF-4D28-150A-A1093670FDF9}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
